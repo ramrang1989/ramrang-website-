@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Solar Installation Gallery</title>
+
+  <!-- Bootstrap & Lightbox CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet"/>
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .gallery-img {
+      height: 200px;
+      object-fit: cover;
+      width: 100%;
+      border-radius: 8px;
+      transition: 0.3s ease;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .gallery-img:hover {
+      transform: scale(1.03);
+    }
+
+    h2 {
+      color: #FF6600;
+      font-weight: 600;
+    }
+
+    .lb-data .lb-caption {
+      font-size: 16px;
+      padding-top: 10px;
+      color: #fff;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container py-5">
+    <h2 class="text-center mb-4">Solar Work Gallery</h2>
+
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-3 col-6">
+        <a href="images/solar1.jpg"
+           data-lightbox="gallery"
+           data-title="<strong>3kW Rooftop Solar</strong><br>Installed on Residential Flat Roof<br>By Ram Rang Solar Team">
+          <img src="images/solar1.jpg" class="img-fluid gallery-img" alt="solar1">
+        </a>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-3 col-6">
+        <a href="images/solar2.jpg"
+           data-lightbox="gallery"
+           data-title="<strong>Panel Mounting Structure</strong><br>Galvanized Iron Frame with High Strength">
+          <img src="images/solar2.jpg" class="img-fluid gallery-img" alt="solar2">
+        </a>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-3 col-6">
+        <a href="images/solar3.jpg"
+           data-lightbox="gallery"
+           data-title="<strong>On-Grid Inverter Setup</strong><br>Monitoring Enabled System">
+          <img src="images/solar3.jpg" class="img-fluid gallery-img" alt="solar3">
+        </a>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-3 col-6">
+        <a href="images/solar4.jpg"
+           data-lightbox="gallery"
+           data-title="<strong>Residential Solar Array</strong><br>High Efficiency Mono PERC Panels">
+          <img src="images/solar4.jpg" class="img-fluid gallery-img" alt="solar4">
+        </a>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-3 col-6">
+        <a href="images/solar5.jpg"
+           data-lightbox="gallery"
+           data-title="<strong>Solar Net Metering</strong><br>Connected to Grid with Approved Setup">
+          <img src="images/solar5.jpg" class="img-fluid gallery-img" alt="solar5">
+        </a>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-3 col-6">
+        <a href="images/solar6.jpg"
+           data-lightbox="gallery"
+           data-title="<strong>Cleaning and Maintenance</strong><br>Periodic Service for Optimal Output">
+          <img src="images/solar6.jpg" class="img-fluid gallery-img" alt="solar6">
+        </a>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="col-md-3 col-6">
+        <a href="images/solar7.jpg"
+           data-lightbox="gallery"
+           data-title="<strong>Ground-Mounted Solar</strong><br>For Open Land or Large Spaces">
+          <img src="images/solar7.jpg" class="img-fluid gallery-img" alt="solar7">
+        </a>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="col-md-3 col-6">
+        <a href="images/solar8.jpg"
+           data-lightbox="gallery"
+           data-title="<strong>5kW System Installation</strong><br>Ready for Commissioning">
+          <img src="images/solar8.jpg" class="img-fluid gallery-img" alt="solar8">
+        </a>
+      </div>
+
+      <!-- Card 9 -->
+      <div class="col-md-3 col-6">
+        <a href="images/solar9.jpg"
+           data-lightbox="gallery"
+           data-title="<strong>Battery Backup Solar</strong><br>Hybrid System with Energy Storage">
+          <img src="images/solar9.jpg" class="img-fluid gallery-img" alt="solar9">
+        </a>
+      </div>
+
+      <!-- Card 10 -->
+      <div class="col-md-3 col-6">
+        <a href="images/solar10.jpg"
+           data-lightbox="gallery"
+           data-title="<strong>Commercial Solar Plant</strong><br>Installed on Industrial Shed">
+          <img src="images/solar10.jpg" class="img-fluid gallery-img" alt="solar10">
+        </a>
+      </div>
+
+      <!-- Card 11 -->
+      <div class="col-md-3 col-6">
+        <a href="images/solar11.jpg"
+           data-lightbox="gallery"
+           data-title="<strong>Panel Alignment Work</strong><br>North-South Facing Tilted Panels">
+          <img src="images/solar11.jpg" class="img-fluid gallery-img" alt="solar11">
+        </a>
+      </div>
+
+      <!-- Card 12 -->
+      <div class="col-md-3 col-6">
+        <a href="images/solar12.jpg"
+           data-lightbox="gallery"
+           data-title="<strong>Complete Solar Rooftop System</strong><br>Commissioned & Net Metered">
+          <img src="images/solar12.jpg" class="img-fluid gallery-img" alt="solar12">
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- JS Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</body>
+</html>
